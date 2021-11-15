@@ -1,0 +1,16 @@
+{
+  "name": "hasura-boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "console": "hasura console",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "hasura-cli": "^2.0.9"
+  }
+}
